@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcaliberC", "ExcaliberC.csproj", "{16FC4EF9-C12D-4779-9E28-F31A89A3DC7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcaliberSword", "..\ExcaliberSword\ExcaliberSword.csproj", "{58B184E9-8192-4470-9240-92FA0155849D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{16FC4EF9-C12D-4779-9E28-F31A89A3DC7B} = {16FC4EF9-C12D-4779-9E28-F31A89A3DC7B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16FC4EF9-C12D-4779-9E28-F31A89A3DC7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16FC4EF9-C12D-4779-9E28-F31A89A3DC7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16FC4EF9-C12D-4779-9E28-F31A89A3DC7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16FC4EF9-C12D-4779-9E28-F31A89A3DC7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B184E9-8192-4470-9240-92FA0155849D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B184E9-8192-4470-9240-92FA0155849D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B184E9-8192-4470-9240-92FA0155849D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B184E9-8192-4470-9240-92FA0155849D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D548E8E-52CE-4323-851D-C1B3798A7B22}
+	EndGlobalSection
+EndGlobal
